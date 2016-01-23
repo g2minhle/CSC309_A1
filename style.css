@@ -48,6 +48,7 @@ a:focus{
 .tableHeader{
     background-color:  #9c27b0;
     color: white;
+    font-weight: bold;
 }
 
 .biggerFont{
@@ -90,17 +91,18 @@ tr:nth-child(odd) {
 .tableHightLight{
     background: #3f51b5;
     color: white;
+    font-weight: bold;
 }
 
 /*-------------------------------------- Nav bar --------------------------------------*/
 
 .navItem{
-    padding: 0;
+    padding: 0px;
     text-align: center;
     color: white;
     font-weight: bold;
     text-decoration: none;
-    font-size: 12;
+    font-size: 12px;
 
     padding-top: 1%;
 
@@ -181,3 +183,6 @@ tr:nth-child(odd) {
     } 
 }
 
+.hidden{
+    display: none;   
+}
