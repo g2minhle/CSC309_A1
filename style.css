@@ -3,26 +3,16 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div{
+.div{
     width: 100%;
 }
 
-table {
-    border-collapse: collapse;
-    margin: 0 auto;
-}
-
-table.feedbackForm{
+.feedbackForm{
     width: 100%;
 }
 
 .feedbackFormText{
     width: 100%;
-}
-
-td, th {
-    border: 1px solid black;
-    padding: 8px;
 }
 
 /* Make sure everything is in a column
@@ -91,7 +81,7 @@ a:focus{
     width: 96%;
 }
 
-tr:nth-child(odd) {
+.oddRow {
     background-color: #fff3e0;
 }
 
@@ -198,6 +188,7 @@ tr:nth-child(odd) {
 .table
 {
     display: table;
+    margin: 0 auto;    
 }
 .title
 {
@@ -206,7 +197,7 @@ tr:nth-child(odd) {
     font-weight: bold;
     font-size: larger;
 }
-.heading
+.heading    
 {
     display: table-row;
     font-weight: bold;
@@ -219,8 +210,8 @@ tr:nth-child(odd) {
 .cell
 {
     display: table-cell;
-    border: solid;
     border-width: thin;
-    padding-left: 5px;
-    padding-right: 5px;
+    border: 1px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
 }
